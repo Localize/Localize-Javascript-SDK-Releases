@@ -1,8 +1,8 @@
-# Localize Javascript SDK Release Notes
+# Localize Javascript SDK Releases
 
 Please the [Localize Help Center](https://help.localizejs.com/docs/library-api) for SDK usage and configuration documentation.
 
-## Introduction
+### Introduction
 
 There are two methods of loading the Localize Javascript SDK script tag.
 
@@ -25,4 +25,17 @@ Localize occasionally updates the Localize Javascript SDK with new features and 
 If you wish to load the Localize script using [Subresource Integrity](https://developer.mozilla.org/en-US/docs/Web/Security/Subresource_Integrity), you must use the versioned script tag. You can find the SRI hash in the release notes for each version below.
 
 
-## Release Notes
+# Release Notes
+
+
+## Version 426 - August 28, 2020
+
+ * Initial release of the versioned SDK.
+
+```
+// Script tag without SRI
+<script src="https://global.localizecdn.com/localize.425.js"></script>
+
+// Script tag with SRI
+<script src="https://global.localizecdn.com/localize.425.js" integrity="sha512-32/RzxRSnAlOpinrZE21dIg560KP/pnpQenzrYtgXoVFq+ZGJsWaaCpYRAmcfM4OQcWDsPcdQNBIcetGke9wyg==" crossorigin="anonymous"></script>
+```

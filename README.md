@@ -25,8 +25,14 @@ Localize occasionally updates the Localize Javascript SDK with new features and 
 If you wish to load the Localize script using [Subresource Integrity](https://developer.mozilla.org/en-US/docs/Web/Security/Subresource_Integrity), you must use the versioned script tag. You can find the SRI hash in the release notes for each version below.
 
 
-## Release Notes
+## Version 426:  August 28, 2020
 
-## Version 426 / 2020-08-28
-===================
  * This is the initial release of the versioned SDK.
+
+```
+// Script tag without SRI
+<script src="https://global.localizecdn.com/localize.425.js"></script>
+
+// Script tag with SRI
+<script src="https://global.localizecdn.com/localize.425.js" integrity="sha512-32/RzxRSnAlOpinrZE21dIg560KP/pnpQenzrYtgXoVFq+ZGJsWaaCpYRAmcfM4OQcWDsPcdQNBIcetGke9wyg==" crossorigin="anonymous"></script>
+```

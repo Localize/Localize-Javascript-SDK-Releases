@@ -26,3 +26,7 @@ If you wish to load the Localize script using [Subresource Integrity](https://de
 
 
 ## Release Notes
+
+## Version 426 / 2020-08-28
+===================
+ * This is the initial release of the versioned SDK.

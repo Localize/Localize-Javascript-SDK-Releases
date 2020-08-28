@@ -11,13 +11,13 @@ There are two methods of loading the Localize Javascript SDK script tag.
 2. **Versioned script tag**:
     - `<script src="https://global.localizecdn.com/localize.VERSION.js"></script>`
 
-Localize occasionally updates the Localize Javascript SDK with new features and bug fixes. The unversioned script tag receives these updates automatically, while the versioned script tag requires manually upgrades.
+Localize occasionally updates the Localize Javascript SDK with new features and bug fixes. The unversioned script tag receives these updates automatically, while the versioned script tag requires manual upgrades.
 
 
 **Additional notes**:
 - New versions of the Javascript SDK are backwards compatible with prior versions.
-- When using the unversioned script tag, we recommend upgrading to the latest version every 3-6 months.
-- We recommend watching this repository to receive alerts when new versions of the SDK are released.
+- When using the versioned script tag, we recommend upgrading to the latest version every 3-6 months.
+- We recommend "watching" this repository to receive alerts when new versions of the SDK are released.
 
 
 **Subresource Integrity (SRI)**

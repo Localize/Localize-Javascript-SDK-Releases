@@ -2,7 +2,7 @@
 
 Please the [Localize Help Center](https://help.localizejs.com/docs/library-api) for SDK usage and configuration documentation.
 
-## Introduction
+### Introduction
 
 There are two methods of loading the Localize Javascript SDK script tag.
 

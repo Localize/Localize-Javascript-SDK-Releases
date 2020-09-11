@@ -27,6 +27,17 @@ If you wish to load the Localize script using [Subresource Integrity](https://de
 
 # Release Notes
 
+## Version 427 - September 11, 2020
+
+ * **[New Feature]**: Add support for disabling the Localize SDK on a per-page basis (or by matching regex) via the "Disable Localize by Page" Library Setting, configurable in the Localize dashboard.
+
+```
+// Script tag without SRI
+<script src="https://global.localizecdn.com/localize.427.js"></script>
+
+// Script tag with SRI
+<script src="https://global.localizecdn.com/localize.427.js" integrity="sha512-RWVE4x0qfgOjY3F0lncL/u36A/UOKf/GJkKHYPbNF6ip0zHKD70kVxFgPQwMjUTOzVdFRJ0On15IUuifmoF1KQ==" crossorigin="anonymous"></script>
+```
 
 ## Version 426 - August 28, 2020
 
@@ -34,8 +45,8 @@ If you wish to load the Localize script using [Subresource Integrity](https://de
 
 ```
 // Script tag without SRI
-<script src="https://global.localizecdn.com/localize.425.js"></script>
+<script src="https://global.localizecdn.com/localize.426.js"></script>
 
 // Script tag with SRI
-<script src="https://global.localizecdn.com/localize.425.js" integrity="sha512-32/RzxRSnAlOpinrZE21dIg560KP/pnpQenzrYtgXoVFq+ZGJsWaaCpYRAmcfM4OQcWDsPcdQNBIcetGke9wyg==" crossorigin="anonymous"></script>
+<script src="https://global.localizecdn.com/localize.426.js" integrity="sha384-fZBu/+Xwktt/IKgd806x78V4OAzcdJEbaL9mCtLNUNST5150AyopLNSsG9zXPtcA" crossorigin="anonymous"></script>
 ```

@@ -27,6 +27,18 @@ If you wish to load the Localize script using [Subresource Integrity](https://de
 
 # Release Notes
 
+## Version 428 - September 22, 2020
+
+ * **[Bug Fix]**: When passing `blockedClasses` or `blockedIds` into `Localize.initialize({ ... })`, Blocked Classes / IDs configured via project settings in the Localize dashboard were not respected.
+
+```
+// Script tag without SRI
+<script src="https://global.localizecdn.com/localize.428.js"></script>
+
+// Script tag with SRI
+<script src="https://global.localizecdn.com/localize.428.js" integrity="sha512-2bpiizy5ZhZl+FjqLvlCAhtztC+rmftJmFUvl1B4r/krctRBW7WKHE/ty42fuOlTnLuf3m3V+rRJ9xAlTUP1RA==" crossorigin="anonymous"></script>
+```
+
 ## Version 427 - September 11, 2020
 
  * **[New Feature]**: Add support for disabling the Localize SDK on a per-page basis (or by matching regex) via the "Disable Localize by Page" Library Setting, configurable in the Localize dashboard.

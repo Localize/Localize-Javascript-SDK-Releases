@@ -27,6 +27,18 @@ If you wish to load the Localize script using [Subresource Integrity](https://de
 
 # Release Notes
 
+## Version 429 - September 25, 2020
+
+ * **[Bug Fix]**: When the Localize <> Google Analytics integration is enabled, set the `non_interaction` option to `true` rather than unspecified so that GA accurately reports bounce rates.
+
+```
+// Script tag without SRI
+<script src="https://global.localizecdn.com/localize.429.js"></script>
+
+// Script tag with SRI
+<script src="https://global.localizecdn.com/localize.429.js" integrity="sha512-PiH4+oAVpsCsyO8SFlx7xCCV6k/BRIDvMHvMdvwKJyRQsXvxe+88J7uilEZwUwzz+4oOdcMa+z2NBTHXfo5uJQ==" crossorigin="anonymous"></script>
+```
+
 ## Version 428 - September 22, 2020
 
  * **[Bug Fix]**: When passing `blockedClasses` or `blockedIds` into `Localize.initialize({ ... })`, Blocked Classes / IDs configured via project settings in the Localize dashboard were not respected.

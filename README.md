@@ -27,6 +27,17 @@ If you wish to load the Localize script using [Subresource Integrity](https://de
 
 # Release Notes
 
+## Version 300 - October 20, 2020
+
+ * **[Bug Fix]**: When the Localize <> Google Analytics integration is enabled and analytics.js (`window.ga`) is used, the `nonInteraction` option is now set to `true` rather than unspecified so that GA accurately reports bounce rates. The previous fix for this bug only resolved users of `window.gtag`.
+
+```
+// Script tag without SRI
+<script src="https://global.localizecdn.com/localize.430.js"></script>
+
+// Script tag with SRI
+<script src="https://global.localizecdn.com/localize.430.js" integrity="sha512-jictTmnoWsYW0s2Gq7Y4LYaF4hXOvETkCPYEdb6bPF7ph0E+z8fKYm7r2OKzb7Srw4qHyBd/2Vx7dFJ8JNP+Zg==" crossorigin="anonymous"></script>
+
 ## Version 429 - September 25, 2020
 
  * **[Bug Fix]**: When the Localize <> Google Analytics integration is enabled, set the `non_interaction` option to `true` rather than unspecified so that GA accurately reports bounce rates.

@@ -27,6 +27,19 @@ If you wish to load the Localize script using [Subresource Integrity](https://de
 
 # Release Notes
 
+## Version 431 - November 8, 2020
+
+ * **[Bug Fix]**: Resolves an edge case where `&` was sometimes rendered as `&amp;`
+ * **[Performance]**: Embed the "Send debug information" project setting within the dictionary file to reduce latency + improve performance.
+
+```
+// Script tag without SRI
+<script src="https://global.localizecdn.com/localize.431.js"></script>
+
+// Script tag with SRI
+<script src="https://global.localizecdn.com/localize.431.js" integrity="sha512-DZcNM3Yh0RWkIrCY7eBwov/sNNsjrx7/D5K8x2MxHxFneCx8hJshW14LFFGlKSPJKaSGL45k0dJkwtQ2fTwSCg==" crossorigin="anonymous"></script>
+```
+
 ## Version 430 - October 20, 2020
 
  * **[Bug Fix]**: When the Localize <> Google Analytics integration is enabled and analytics.js (`window.ga`) is used, the `nonInteraction` option is now set to `true` rather than unspecified so that GA accurately reports bounce rates. The previous fix for this bug only resolved users of `window.gtag`.

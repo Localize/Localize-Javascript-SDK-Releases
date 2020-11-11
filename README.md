@@ -27,6 +27,19 @@ If you wish to load the Localize script using [Subresource Integrity](https://de
 
 # Release Notes
 
+
+## Version 432 - November 11, 2020
+
+ * **[Performance]**: Embed the marketing integration project settings within the dictionary file to reduce latency + improve performance.
+
+```
+// Script tag without SRI
+<script src="https://global.localizecdn.com/localize.432.js"></script>
+
+// Script tag with SRI
+<script src="https://global.localizecdn.com/localize.432.js" integrity="sha512-pA8siNHj+dM8Gq0GlN9efU8Rj2xy/QoeXJBzQ3XCaWW1EFibEykPwt0y/gLco9hlFkUjMjhcNXz/VFtJy0eX1A==" crossorigin="anonymous"></script>
+```
+
 ## Version 431 - November 8, 2020
 
  * **[Bug Fix]**: Resolves an edge case where `&` was sometimes rendered as `&amp;`

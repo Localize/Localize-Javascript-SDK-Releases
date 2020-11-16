@@ -27,6 +27,17 @@ If you wish to load the Localize script using [Subresource Integrity](https://de
 
 # Release Notes
 
+## Version 433 - November 16, 2020
+
+ * **[Bug fix]**: Resolves a recently discovered edge case where MutationObserver doesn't pick up text changes properly
+
+```
+// Script tag without SRI
+<script src="https://global.localizecdn.com/localize.433.js"></script>
+
+// Script tag with SRI
+<script src="https://global.localizecdn.com/localize.433.js" integrity="sha512-UzRXwYAJM/Rq+6gcp69t7Ut2ydAwQNq9CGHz4ZjkL6vkEgi7kyp5q8tPr0R7BgHTpH+zanUOwpDv0kHxHxWNdA==" crossorigin="anonymous"></script>
+```
 
 ## Version 432 - November 11, 2020
 

@@ -27,6 +27,19 @@ If you wish to load the Localize script using [Subresource Integrity](https://de
 
 # Release Notes
 
+
+## Version 434 - Dec 7, 2020
+
+ * **[Feature]**: Adds ability to restrict what domains new phrases can be saved from based on a whitelist provided in Library Settings within the Localize Dashboard.
+
+```
+// Script tag without SRI
+<script src="https://global.localizecdn.com/localize.434.js"></script>
+
+// Script tag with SRI
+<script src="https://global.localizecdn.com/localize.434.js" integrity="sha512-chQZjGd6k5TXstV9NYYARx1QRlL6wuMlnF+WqEgq56Mf6EgylNJKE80pTZTwmoVlYKq77Ap7Jxr3f0x4skgiWg==" crossorigin="anonymous"></script>
+```
+
 ## Version 433 - November 16, 2020
 
  * **[Bug fix]**: Resolves a recently discovered edge case where MutationObserver doesn't pick up text changes properly

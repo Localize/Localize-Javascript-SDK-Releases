@@ -27,8 +27,19 @@ If you wish to load the Localize script using [Subresource Integrity](https://de
 
 # Release Notes
 
+## Version 436 - Jan 2, 2021
 
-## Version 434 - Dec 7, 2020
+ * **[Fix]**: Remove unnecessary API calls to minimize network usage
+
+```
+// Script tag without SRI
+<script src="https://global.localizecdn.com/localize.436.js"></script>
+
+// Script tag with SRI
+<script src="https://global.localizecdn.com/localize.436.js" integrity="sha512-hsCAfwS229YHCa/X/zbXFz0/geM8c9TNXxnyAdhepklDeRbQ+lPyjrxF4F2TmNse8BJcEhN0fOVx+cXGiDZiSw==" crossorigin="anonymous"></script>
+```
+
+## Version 434/435 - Dec 7, 2020
 
  * **[Feature]**: Adds ability to restrict what domains new phrases can be saved from based on a whitelist provided in Library Settings within the Localize Dashboard.
 

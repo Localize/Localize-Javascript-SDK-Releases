@@ -27,7 +27,7 @@ If you wish to load the Localize script using [Subresource Integrity](https://de
 
 # Release Notes
 
-## Version 436 - Jan 2, 2021
+## Version 436/437 - Jan 2, 2021
 
  * **[Fix]**: Remove unnecessary API calls to minimize network usage
 

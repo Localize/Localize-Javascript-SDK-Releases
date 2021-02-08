@@ -27,6 +27,18 @@ If you wish to load the Localize script using [Subresource Integrity](https://de
 
 # Release Notes
 
+## Version 438 - Feb 8, 2021
+
+ * **[Fix]**: Resolve issue with widget showing up when it's being hidden by the Disbaled Pages dashboard setting in certain edge cases.
+
+```
+// Script tag without SRI
+<script src="https://global.localizecdn.com/localize.438.js"></script>
+
+// Script tag with SRI
+<script src="https://global.localizecdn.com/localize.438.js" integrity="sha512-9KEqteRrrJGzPUX1/qVgDaRFXZjcXDAMHKQ0Na85JMKNuLvl1edFcNYgDy97I3bo5VXBnaiav4ZB0DDb9BpvxQ==" crossorigin="anonymous"></script>
+```
+
 ## Version 436/437 - Jan 2, 2021
 
  * **[Fix]**: Remove unnecessary API calls to minimize network usage
@@ -38,6 +50,7 @@ If you wish to load the Localize script using [Subresource Integrity](https://de
 // Script tag with SRI
 <script src="https://global.localizecdn.com/localize.436.js" integrity="sha512-hsCAfwS229YHCa/X/zbXFz0/geM8c9TNXxnyAdhepklDeRbQ+lPyjrxF4F2TmNse8BJcEhN0fOVx+cXGiDZiSw==" crossorigin="anonymous"></script>
 ```
+
 
 ## Version 434/435 - Dec 7, 2020
 

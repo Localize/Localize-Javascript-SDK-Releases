@@ -27,6 +27,17 @@ If you wish to load the Localize script using [Subresource Integrity](https://de
 
 # Release Notes
 
+## Version 439 - Mar 19, 2021
+
+ * **[Fix]**: Resolved issue with Disabled Pages not allowing disabling of just the root domain of a site.
+
+```
+// Script tag without SRI
+<script src="https://global.localizecdn.com/localize.439.js"></script>
+
+// Script tag with SRI
+<script src="https://global.localizecdn.com/localize.439.js" integrity="sha512-GIiPt9oVH9Rw+rI3fphCY9G6KB+9/y1iuApLtnQ0sOWT2lvYYrBq90XrEN24ROHj2gr+FzldbWXf/wmS3WEw1Q==" crossorigin="anonymous"></script>
+
 ## Version 438 - Feb 8, 2021
 
  * **[Fix]**: Resolve issue with widget showing up when it's being hidden by the Disbaled Pages dashboard setting in certain edge cases.

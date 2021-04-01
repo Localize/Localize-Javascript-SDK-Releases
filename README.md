@@ -27,6 +27,18 @@ If you wish to load the Localize script using [Subresource Integrity](https://de
 
 # Release Notes
 
+## Version 440 - Apr 1, 2021
+
+ * **[Fix]**: Resolved issues with SVGs not being properly handled in the In-Context Editor
+
+```
+// Script tag without SRI
+<script src="https://global.localizecdn.com/localize.440.js"></script>
+
+// Script tag with SRI
+<script src="https://global.localizecdn.com/localize.440.js" integrity="sha512-GIiPt9oVH9Rw+rI3fphCY9G6KB+9/y1iuApLtnQ0sOWT2lvYYrBq90XrEN24ROHj2gr+FzldbWXf/wmS3WEw1Q==" crossorigin="anonymous"></script>
+```
+
 ## Version 439 - Mar 19, 2021
 
  * **[Fix]**: Resolved issue with Disabled Pages not allowing disabling of just the root domain of a site.

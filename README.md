@@ -1,6 +1,6 @@
 # Localize Javascript SDK Releases
 
-Please the [Localize Help Center](https://help.localizejs.com/docs/library-api) for SDK usage and configuration documentation.
+Please see the [Localize Help Center](https://help.localizejs.com/docs/library-api) for SDK usage and configuration documentation.
 
 ### Introduction
 
@@ -26,6 +26,18 @@ If you wish to load the Localize script using [Subresource Integrity](https://de
 
 
 # Release Notes
+
+## Version 441 - Apr 7, 2021
+
+ * **[Fix]**: Language not remembered when returning from disabled page [DEV-2090]
+
+```
+// Script tag without SRI
+<script src="https://global.localizecdn.com/localize.441.js"></script>
+
+// Script tag with SRI
+<script src="https://global.localizecdn.com/localize.441.js" integrity="sha512-oJQkAwLDbUurUphYse7eCAKDXUFdgXlxiX4cTp7fVd+ntElWMdHgPEyXLLG5kBxylgBxFcqWW9Z6IPG/PK2amg==" crossorigin="anonymous"></script>
+```
 
 ## Version 440 - Apr 1, 2021
 

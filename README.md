@@ -33,10 +33,10 @@ If you wish to load the Localize script using [Subresource Integrity](https://de
 
 ```
 // Script tag without SRI
-<script src="https://global.localizecdn.com/localize.440.js"></script>
+<script src="https://global.localizecdn.com/localize.441.js"></script>
 
 // Script tag with SRI
-<script src="https://global.localizecdn.com/localize.440.js" integrity="sha512-1kjlhC8A9d1v1lb6iXZjBfCTrs8RJp7+c65nR/35PgRt/4LjjhADjtmRiAnrfcCU2AaQEC8g4y3A/tsxaApC0Q==" crossorigin="anonymous"></script>
+<script src="https://global.localizecdn.com/localize.441.js" integrity="sha512-1kjlhC8A9d1v1lb6iXZjBfCTrs8RJp7+c65nR/35PgRt/4LjjhADjtmRiAnrfcCU2AaQEC8g4y3A/tsxaApC0Q==" crossorigin="anonymous"></script>
 ```
 
 ## Version 440 - Apr 1, 2021

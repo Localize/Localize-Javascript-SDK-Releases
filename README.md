@@ -27,6 +27,18 @@ If you wish to load the Localize script using [Subresource Integrity](https://de
 
 # Release Notes
 
+## Version 441 - Apr 7, 2021
+
+ * **[Fix]**: Language not remembered when returning from disabled page [DEV-2090]
+
+```
+// Script tag without SRI
+<script src="https://global.localizecdn.com/localize.440.js"></script>
+
+// Script tag with SRI
+<script src="https://global.localizecdn.com/localize.440.js" integrity="sha512-1kjlhC8A9d1v1lb6iXZjBfCTrs8RJp7+c65nR/35PgRt/4LjjhADjtmRiAnrfcCU2AaQEC8g4y3A/tsxaApC0Q==" crossorigin="anonymous"></script>
+```
+
 ## Version 440 - Apr 1, 2021
 
  * **[Fix]**: Resolved issues with SVGs not being properly handled in the In-Context Editor

@@ -27,6 +27,18 @@ If you wish to load the Localize script using [Subresource Integrity](https://de
 
 # Release Notes
 
+## Version 442 - May 21, 2021
+
+ * **[Fix]**: The `isolate` attribute was not respected when a SVG existed as a child node [DEV-2090]
+
+```
+// Script tag without SRI
+<script src="https://global.localizecdn.com/localize.442.js"></script>
+
+// Script tag with SRI
+<script src="https://global.localizecdn.com/localize.442.js" integrity="sha512-HTva+vkfBKviP6npLJS6C37A969TZrl2IzgxUDlv+/OJdCGoAUxjHrlspVo5HUC9nUYmwckAegACC2+ll+iTIA==" crossorigin="anonymous"></script>
+```
+
 ## Version 441 - Apr 7, 2021
 
  * **[Fix]**: Language not remembered when returning from disabled page [DEV-2090]

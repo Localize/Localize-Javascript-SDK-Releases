@@ -27,6 +27,18 @@ If you wish to load the Localize script using [Subresource Integrity](https://de
 
 # Release Notes
 
+## Version 443 - May 24, 2021
+
+ * **[Fix]**: Certain phrases injected into the DOM weren't translated (in certain edge cases involving nested nodes) with the library options `translateBody: false`, and `retranslateOnNewPhrases: true`  [DEV-2339]
+
+```
+// Script tag without SRI
+<script src="https://global.localizecdn.com/localize.443.js"></script>
+
+// Script tag with SRI
+<script src="https://global.localizecdn.com/localize.443.js" integrity="sha512-fT1vG/WLbqiiGK8HFShu883aiLL80tydfxMWOOwFBLeKHrn9BAojQrsKyrEX8NvezadkdpG7SuetqI7IRI3iZQ==" crossorigin="anonymous"></script>
+```
+
 ## Version 442 - May 21, 2021
 
  * **[Fix]**: The `isolate` attribute was not respected when a SVG existed as a child node [DEV-2090]

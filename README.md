@@ -27,6 +27,24 @@ If you wish to load the Localize script using [Subresource Integrity](https://de
 
 # Release Notes
 
+
+## Version 444 - June 7, 2021
+
+ * **[Feature]**: Allow wildcards when defining what domains new phrases can be detected from [DEV-2308]
+ * **[Improvement]**: Save detected phrases from both source and target language when a project is first created [DEV-2109]
+ * **[Fix]**: Make in-progress reviewable translations visible in the in-context editor [DEV-2201]
+ * **[Fix]**: Remove unneeded reference to S3 when retrying failed dictionary file fetch [DEV-2316]
+ * **[Fix]**: Language not remembered when returning from disabled page when the widget was disabled [DEV-2090]
+ * **[Fix]**: Additional fix for the bug: certain phrases injected into the DOM weren't translated (in certain edge cases involving nested nodes) with the library options `translateBody: false`, and `retranslateOnNewPhrases: true`  [DEV-2339]
+
+```
+// Script tag without SRI
+<script src="https://global.localizecdn.com/localize.444.js"></script>
+
+// Script tag with SRI
+<script src="https://global.localizecdn.com/localize.444.js" integrity="sha512-CpuIvzLGGVF+XVqIB0zjQA21CbceoL685q7Eema3sCrkX67BlJ6zPNvSJqFhWcqKDENDKkWObquIwR8S0FY8NQ==" crossorigin="anonymous"></script>
+```
+
 ## Version 443 - May 24, 2021
 
  * **[Fix]**: Certain phrases injected into the DOM weren't translated (in certain edge cases involving nested nodes) with the library options `translateBody: false`, and `retranslateOnNewPhrases: true`  [DEV-2339]

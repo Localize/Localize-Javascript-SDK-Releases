@@ -27,6 +27,16 @@ If you wish to load the Localize script using [Subresource Integrity](https://de
 
 # Release Notes
 
+## Version 445 - June 8, 2021
+
+ * **[Fix]**: Resolve issue with arrow functions breaking compatibility with certain versions of IE
+
+```
+// Script tag without SRI
+<script src="https://global.localizecdn.com/localize.445.js"></script>
+// Script tag with SRI
+<script src="https://global.localizecdn.com/localize.445.js" integrity="sha512-in79nKZ9JljhnbUFi3seLHtGcUF9qHI+fFJdmlS3SO8418r7ddNu2qm3Hi6pVNaNpxtf7uX+T60FV0BkQ9a5OA==" crossorigin="anonymous"></script>
+```
 
 ## Version 444 - June 7, 2021
 

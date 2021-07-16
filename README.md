@@ -27,6 +27,18 @@ If you wish to load the Localize script using [Subresource Integrity](https://de
 
 # Release Notes
 
+## Version 446 - July 16, 2021
+
+ * **[Fix]**: Using the "isolate" attribute on a container with a `<br>` tag caused the phrase to be broken apart [DEV-2553]
+ * **[Change]**: Within SVGs, group together `<tspan>` elements that are adjacent to one another [DEV-2152]
+
+```
+// Script tag without SRI
+<script src="https://global.localizecdn.com/localize.446.js"></script>
+// Script tag with SRI
+<script src="https://global.localizecdn.com/localize.446.js" integrity="sha512-+mzz5ZxGKX4RJFGT0H+X+sIB5S+eYQLn+TAl9fMeZTHT73W153HkkuncXRt8xqwAHI2W+rgweg1uHQeiCZDEyw==" crossorigin="anonymous"></script>
+```
+
 ## Version 445 - June 8, 2021
 
  * **[Fix]**: Resolve issue with arrow functions breaking compatibility with certain versions of IE

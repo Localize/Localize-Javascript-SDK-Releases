@@ -29,13 +29,14 @@ If you wish to load the Localize script using [Subresource Integrity](https://de
 
 ## Version 447 - August 10, 2021
 
- * **[Fix]**: Under the hood changes that improve overall compatability of the In-Context Editor across a wide variety of edge cases [DEV-2688]
+ * **[Fix]**: Under the hood changes that improve overall compatability of the In-Context Editor across a wider variety of use cases [DEV-2688]
 
 ```
 // Script tag without SRI
 <script src="https://global.localizecdn.com/localize.447.js"></script>
+
 // Script tag with SRI
-<script src="https://global.localizecdn.com/localize.447.js" integrity="sha512-+mzz5ZxGKX4RJFGT0H+X+sIB5S+eYQLn+TAl9fMeZTHT73W153HkkuncXRt8xqwAHI2W+rgweg1uHQeiCZDEyw==" crossorigin="anonymous"></script>
+<script src="https://global.localizecdn.com/localize.447.js" integrity="sha512-9B398RrAm4ysH0d7VQMwH/o3gOH40cyksQkupngd292cgSEnkt1p0HIx3N1D3nqYZmAWEi/iXGCXFgH5LeMvXQ==" crossorigin="anonymous"></script>
 ```
 
 ## Version 446 - July 16, 2021
@@ -46,6 +47,7 @@ If you wish to load the Localize script using [Subresource Integrity](https://de
 ```
 // Script tag without SRI
 <script src="https://global.localizecdn.com/localize.446.js"></script>
+
 // Script tag with SRI
 <script src="https://global.localizecdn.com/localize.446.js" integrity="sha512-+mzz5ZxGKX4RJFGT0H+X+sIB5S+eYQLn+TAl9fMeZTHT73W153HkkuncXRt8xqwAHI2W+rgweg1uHQeiCZDEyw==" crossorigin="anonymous"></script>
 ```
@@ -57,6 +59,7 @@ If you wish to load the Localize script using [Subresource Integrity](https://de
 ```
 // Script tag without SRI
 <script src="https://global.localizecdn.com/localize.445.js"></script>
+
 // Script tag with SRI
 <script src="https://global.localizecdn.com/localize.445.js" integrity="sha512-in79nKZ9JljhnbUFi3seLHtGcUF9qHI+fFJdmlS3SO8418r7ddNu2qm3Hi6pVNaNpxtf7uX+T60FV0BkQ9a5OA==" crossorigin="anonymous"></script>
 ```

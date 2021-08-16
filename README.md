@@ -27,6 +27,19 @@ If you wish to load the Localize script using [Subresource Integrity](https://de
 
 # Release Notes
 
+## Version 448 - August 16, 2021
+
+ * **[Fix]**: Rendering fixes for SVGs in the in-context editor [DEV-2633]
+ * **[Fix]**: Allow the use of `data-ignore`  [DEV-2643]
+
+```
+// Script tag without SRI
+<script src="https://global.localizecdn.com/localize.448.js"></script>
+
+// Script tag with SRI
+<script src="https://global.localizecdn.com/localize.448.js" integrity="sha512-XXXXXX" crossorigin="anonymous"></script>
+```
+
 ## Version 447 - August 10, 2021
 
  * **[Fix]**: Under the hood changes that improve overall compatability of the In-Context Editor across a wider variety of use cases [DEV-2688]

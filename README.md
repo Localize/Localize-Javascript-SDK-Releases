@@ -27,6 +27,20 @@ If you wish to load the Localize script using [Subresource Integrity](https://de
 
 # Release Notes
 
+## Version 451 - October 28, 2021
+
+
+ * **[Fix]**: Resolves an issue within the in-context editor that caused the original translation to display after publishing a new translation [DEV-3052]
+
+```
+// Script tag without SRI
+<script src="https://global.localizecdn.com/localize.451.js"></script>
+
+// Script tag with SRI
+<script src="https://global.localizecdn.com/localize.451.js" integrity="sha512-Jto56tvEGWRvHQdFZ8pALU4b798iecdwCPS6gnB+RZaaw7FPnvmZJCrUQcNPAGoWa6lNhyPaKbcsPIG2buDi1w==" crossorigin="anonymous"></script>
+```
+
+
 ## Version 450 - September 24, 2021
 
  * **[Feature]**: New library option `allowInlineBreakTags` that, when enabled, allows a `<BR>` tag to be exist inline within phrases. By default, break tags split phrases up and this setting allows for overriding the default behavior. [DEV-2799]

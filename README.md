@@ -27,6 +27,18 @@ If you wish to load the Localize script using [Subresource Integrity](https://de
 
 # Release Notes
 
+## Version 452 - December 3, 2021
+
+ * **[Fix]**: Resolves an issue where the "disabled pages" setting did not work when matching pages with `#` or query strings in the URL  [DEV-3124]
+
+```
+// Script tag without SRI
+<script src="https://global.localizecdn.com/localize.452.js"></script>
+
+// Script tag with SRI
+<script src="https://global.localizecdn.com/localize.452.js" integrity="sha512-FKna3gj8yrVbUYMxZNsgZJ7WzukQLwohabsuKMV5OJm260CIhzDJTAJ3Ktp4avtS91a7We/R0ph42sx9Qp5CqQ==" crossorigin="anonymous"></script>
+```
+
 ## Version 451 - October 28, 2021
 
 

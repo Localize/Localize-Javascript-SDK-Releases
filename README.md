@@ -27,6 +27,18 @@ If you wish to load the Localize script using [Subresource Integrity](https://de
 
 # Release Notes
 
+## Version 457 - February 23, 2022
+
+ * **[Feature]**:  SEO settings added to library which allow for HREFLANG tags to be injected based on input in the Localize dashboard [DEV-3272]
+ * **[Feature]**:  Localize.number() - Format a number based on locale [DEV-3333]
+ * **[Feature]**:  Localize.currency() - Convert a value from one currency to another [DEV-3334]
+```
+// Script tag without SRI
+https://global.localizecdn.com/localize.457.js
+
+// Script tag with SRI
+<script src="https://global.localizecdn.com/localize.457.js" integrity="sha512-U9gqRaAgQjjeYtdaPeaZnu5932fTICNclYt5Kq5CrnG2jZXDwmSULQMRQoKuktu1XKsczbmjIfh80y6odExIOA==" crossorigin="anonymous"></script>
+
 ## Version 453 - February 2, 2022
 
  * **[Maintenance]**:  In-context editor refactor/cleanup

@@ -38,6 +38,7 @@ https://global.localizecdn.com/localize.457.js
 
 // Script tag with SRI
 <script src="https://global.localizecdn.com/localize.457.js" integrity="sha512-U9gqRaAgQjjeYtdaPeaZnu5932fTICNclYt5Kq5CrnG2jZXDwmSULQMRQoKuktu1XKsczbmjIfh80y6odExIOA==" crossorigin="anonymous"></script>
+```
 
 ## Version 453 - February 2, 2022
 

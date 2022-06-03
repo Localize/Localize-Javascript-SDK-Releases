@@ -27,6 +27,18 @@ If you wish to load the Localize script using [Subresource Integrity](https://de
 
 # Release Notes
 
+## Version 459 - June 3, 2022
+
+ * **[Fix]**: Resolves an issue where hreflang tags were being added to blocked pages  [DEV-3645]
+
+```
+// Script tag without SRI
+<script src="https://global.localizecdn.com/localize.459.js"></script>
+
+// Script tag with SRI
+<script src="https://global.localizecdn.com/localize.459.js" integrity="sha512-T8DMcDgL3Pm/wKQWdhKxhWxvF+qRXVznBpWUpYJhPMIRtrlFFk+TtPKgs9wRSsUP8TvcyZiI0yGi5hjk3YgDjw==" crossorigin="anonymous"></script>
+```
+
 ## Version 457 - February 23, 2022
 
  * **[Feature]**:  SEO settings added to library which allow for HREFLANG tags to be injected based on input in the Localize dashboard [DEV-3272]
@@ -34,7 +46,7 @@ If you wish to load the Localize script using [Subresource Integrity](https://de
  * **[Feature]**:  Localize.currency() - Convert a value from one currency to another [DEV-3334]
 ```
 // Script tag without SRI
-https://global.localizecdn.com/localize.457.js
+<script src="https://global.localizecdn.com/localize.457.js"></script>
 
 // Script tag with SRI
 <script src="https://global.localizecdn.com/localize.457.js" integrity="sha512-U9gqRaAgQjjeYtdaPeaZnu5932fTICNclYt5Kq5CrnG2jZXDwmSULQMRQoKuktu1XKsczbmjIfh80y6odExIOA==" crossorigin="anonymous"></script>

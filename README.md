@@ -46,7 +46,7 @@ If you wish to load the Localize script using [Subresource Integrity](https://de
  * **[Feature]**:  Localize.currency() - Convert a value from one currency to another [DEV-3334]
 ```
 // Script tag without SRI
-https://global.localizecdn.com/localize.457.js
+<script src="https://global.localizecdn.com/localize.457.js"></script>
 
 // Script tag with SRI
 <script src="https://global.localizecdn.com/localize.457.js" integrity="sha512-U9gqRaAgQjjeYtdaPeaZnu5932fTICNclYt5Kq5CrnG2jZXDwmSULQMRQoKuktu1XKsczbmjIfh80y6odExIOA==" crossorigin="anonymous"></script>

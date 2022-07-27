@@ -27,15 +27,16 @@ If you wish to load the Localize script using [Subresource Integrity](https://de
 
 # Release Notes
 
-## Version 460 - July 18, 2022
+## Version 461 - July 27, 2022
 
  * **[Fix]**: Prefer data-var name for variables  [DEV-3901]
 
 ```
 // Script tag without SRI
-<script src="https://global.localizecdn.com/localize.460.js"></script>
+<script src="https://global.localizecdn.com/localize.461.js"></script>
+
 // Script tag with SRI
-<script src="https://global.localizecdn.com/localize.460.js" integrity="sha512-T8DMcDgL3Pm/wKQWdhKxhWxvF+qRXVznBpWUpYJhPMIRtrlFFk+TtPKgs9wRSsUP8TvcyZiI0yGi5hjk3YgDjw==" crossorigin="anonymous"></script>
+<script src="https://global.localizecdn.com/localize.461.js" integrity="sha512-L8U3KigUh7Yyka3z7g1IoWgAGUK4xgFNYGkupB8fAJxR4W6kRO8sa8ERNPQqS6n89zBu0fyIKBGuBBrNx8X01w==" crossorigin="anonymous"></script>
 ```
 
 ## Version 459 - June 3, 2022

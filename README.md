@@ -27,6 +27,19 @@ If you wish to load the Localize script using [Subresource Integrity](https://de
 
 # Release Notes
 
+## Version 462 - October 31, 2022
+
+* **[Fix]**: Handle edge cases related to partially modified, nested content [DEV-4009]
+* **[Fix]**: Respect initialize options for autodetectLanguage [DEV-3851][DEV-4340]
+
+```
+// Script tag without SRI
+<script src="https://global.localizecdn.com/localize.462.js"></script>
+
+// Script tag with SRI
+<script src="https://global.localizecdn.com/localize.462.js" integrity="sha512-mS5dL8QV2TV+dTQY9hSvx0k/NrW079LWkuerpgmtKcMs0n+uejQvUAZZTaU3fRUxNtod0uTPYY8FYBck3Ql2JA==" crossorigin="anonymous"></script>
+```
+
 ## Version 461 - July 27, 2022
 
  * **[Fix]**: Prefer data-var name for variables  [DEV-3901]

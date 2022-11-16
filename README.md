@@ -27,6 +27,16 @@ If you wish to load the Localize script using [Subresource Integrity](https://de
 
 # Release Notes
 
+## Version 464 - November 16, 2022
+* **[Fix]**: Handle duplicate title tags in page. [DEV-4777]
+```
+// Script tag without SRI
+<script src="https://global.localizecdn.com/localize.464.js"></script>
+
+// Script tag with SRI
+<script src="https://global.localizecdn.com/localize.464.js" integrity="sha512-wqeScHC9risVspWPcyuhbcHtd3SSVlq2vaBX+E8+cxqYOWHvmdzjl3O3PPLWQ0WXaX5M4BFM+q0fjML0GOpWdw==" crossorigin="anonymous"></script>
+```
+
 ## Version 463 - November 8, 2022
 
 * **[Fix]**: Handle case where title tag is missing in a page. [DEV-3934]
@@ -37,6 +47,7 @@ If you wish to load the Localize script using [Subresource Integrity](https://de
 
 // Script tag with SRI
 <script src="https://global.localizecdn.com/localize.463.js" integrity="sha512-eXbltVqfWF9J/6RtEce3g76U4jCXP/wgZIqdNq+PCc6f3DEn+YBxZzomO7cYDS4zorpXgO7qAF1v11839LBCtg==" crossorigin="anonymous"></script>
+```
 
 ## Version 462 - October 31, 2022
 

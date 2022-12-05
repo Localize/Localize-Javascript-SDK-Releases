@@ -26,6 +26,17 @@ If you wish to load the Localize script using [Subresource Integrity](https://de
 
 
 # Release Notes
+## Version 466 - December 5, 2022
+* **[Fix]**: Handle mouse events on touch screen devices. [DEV-2341]
+```
+// Script tag without SRI
+<script src="https://global.localizecdn.com/localize.466.js"></script>
+
+// Script tag with SRI
+<script src="https://global.localizecdn.com/localize.466.js" integrity="sha512-bxZy+ZrPjmbFYqcV/2Te4wvFW5ZyqljrMAuj64ORl5aMPKB8mi3Abb/XDs1K4fl4HNKiTZNwh+KIkNywYq9stQ==" crossorigin="anonymous"></script>
+
+## Version 465 - December 2, 2022
+No changes
 
 ## Version 464 - November 16, 2022
 * **[Fix]**: Handle duplicate title tags in page. [DEV-4777]

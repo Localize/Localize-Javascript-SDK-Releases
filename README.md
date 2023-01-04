@@ -31,7 +31,7 @@ If you wish to load the Localize script using [Subresource Integrity](https://de
 * **[Fix]**: Handle React modifications when replacing or removing child nodes in DOM. [DEV-4911]
 ```
 // Script tag without SRI
-<script src="https://global.localizecdn.com/localize.467.js"></script>
+<script src="https://global.localizecdn.com/localize.468.js"></script>
 
 // Script tag with SRI
 <script src="https://global.localizecdn.com/localize.468.js" integrity="sha512-fGkRLg056X6IdWOu7BZrtVLMvKTT6J9cLcJcf7Fpq6iKfnw4l2NX+TynKWN1O2MsPGeBV7oQaRyQAeEwZgw1ZQ==" crossorigin="anonymous"></script>

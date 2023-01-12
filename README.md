@@ -26,6 +26,14 @@ If you wish to load the Localize script using [Subresource Integrity](https://de
 
 
 # Release Notes
+## Version 469 - January 12, 2023
+* **[Fix]**: Handle Node removed during translation. [DEV-4990]
+```
+// Script tag without SRI
+<script src="https://global.localizecdn.com/localize.469.js"></script>
+
+// Script tag with SRI
+<script src="https://global.localizecdn.com/localize.469.js" integrity="sha512-k6N9HR6+fhWX20ilqOXEyNfCyIwqRXegym9UkTUWzjvgJrXTzqPvBgg2M/djP8ytsdlsiz0Zyrmgf2HrKfRBJw==" crossorigin="anonymous"></script>
 
 ## Version 468 - January 4, 2023
 * **[Fix]**: Handle React modifications when replacing or removing child nodes in DOM. [DEV-4911]

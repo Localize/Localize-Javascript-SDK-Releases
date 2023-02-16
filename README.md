@@ -26,6 +26,17 @@ If you wish to load the Localize script using [Subresource Integrity](https://de
 
 
 # Release Notes
+## Version 470 - February 14, 2023
+* **[Feature]**: Remove inline widget code to better support Content Security Policy headers without `unsafe-inline`. 
+
+```
+// Script tag without SRI
+https://global.localizecdn.com/localize.470.js
+
+// Script tag with SRI
+<script src="https://global.localizecdn.com/localize.470.js" integrity="sha512-DYkowFJZNmW3Og4+MMC3g4a3Qy9J2Y3WPYgdZToxfw7O4VkhQUIBwC0OE/VJdQ/izXciKG/6l4QQszDeTc3LbQ==" crossorigin="anonymous"></script>
+```
+
 ## Version 469 - January 12, 2023
 * **[Fix]**: Handle Node removed during translation. [DEV-4990]
 ```

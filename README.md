@@ -26,6 +26,20 @@ If you wish to load the Localize script using [Subresource Integrity](https://de
 
 
 # Release Notes
+## Version 471 - March 13, 2023
+* **[Feature]**: Added `vueSafe` boolean parameter to Localize.initialize call which instructs our library to not add support for the React virtual DOM.
+Supporting React can cause compatibility issues with VueJS.
+
+* **[Fix]**: Filter executable code from `Localize.translate` method to prevent cross site scripting attacks.
+
+```
+// Script tag without SRI
+https://global.localizecdn.com/localize.471.js
+
+// Script tag with SRI
+<script src="https://global.localizecdn.com/localize.471.js" integrity="sha512-uvZiTAPMTXs3XrgM6J0+zBcBs6TudWf8/fYYRoEPxR4PIV31KdoYW8i5MZUKsWmVKZ2lIqKRNE7iprtJy54wJg==" crossorigin="anonymous"></script>
+```
+
 ## Version 470 - February 14, 2023
 * **[Feature]**: Remove inline widget code to better support Content Security Policy headers without `unsafe-inline`. 
 

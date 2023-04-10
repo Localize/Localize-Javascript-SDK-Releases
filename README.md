@@ -26,6 +26,17 @@ If you wish to load the Localize script using [Subresource Integrity](https://de
 
 
 # Release Notes
+## Version 472 - April 10, 2023
+* **[Fix]**: Added handling for languages with a four character locale which is not strictly upper case, e.g. zh-Hans. After this change a domain such
+as `zh-hans.example.com` will properly switch the user's language to Chinese (Simplified).
+```
+// Script tag without SRI
+<script src="https://global.localizecdn.com/localize.472.js"></script>
+
+// Script tag with SRI
+<script src="https://global.localizecdn.com/localize.472.js" integrity="sha512-QLLKS3P9UpSVpWGwrFJunDXw5FQ5xXOg0bMuHoW2IqS1PsYvocAv79WFNnV4ZSQXxMmmYi2MShseo6p9Fk35CQ==" crossorigin="anonymous"></script>
+```
+
 ## Version 471 - March 13, 2023
 * **[Feature]**: Added `vueSafe` boolean parameter to Localize.initialize call which instructs our library to not add support for the React virtual DOM.
 Supporting React can cause compatibility issues with VueJS.

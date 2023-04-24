@@ -26,6 +26,18 @@ If you wish to load the Localize script using [Subresource Integrity](https://de
 
 
 # Release Notes
+## Version 473 - April 24, 2023
+* **[Fix]**: Filter executable code from `Localize.translate` method when using variable interpolation. 
+Fixes an issue where words beginning with "on" and followed by an html tag were incorrectly removed within `Localize.translate`.
+```
+// Script tag without SRI
+<script src="https://global.localizecdn.com/localize.473.js"></script>
+
+// Script tag with SRI
+<script src="https://global.localizecdn.com/localize.473.js" integrity="sha512-p7sq2PQMHGvyyQ0oBPt2cI/3k6bfAD/cCV7KplwuyWcAaf43wI4EU4ivBu1q36SzZkGM+SFjXeKj9v/pBahjug==" crossorigin="anonymous"></script>
+```
+
+
 ## Version 472 - April 10, 2023
 * **[Fix]**: Added handling for languages with a four character locale which is not strictly upper case, e.g. zh-Hans. After this change a domain such
 as `zh-hans.example.com` will properly switch the user's language to Chinese (Simplified).

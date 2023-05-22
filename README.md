@@ -26,6 +26,16 @@ If you wish to load the Localize script using [Subresource Integrity](https://de
 
 
 # Release Notes
+## Version 474 - May 22, 2023
+* **[Fix]**: Allow translation of meta data while using the In-Context Editor.
+```
+// Script tag without SRI
+<script src="https://global.localizecdn.com/localize.474.js"></script>
+
+// Script tag with SRI
+<script src="https://global.localizecdn.com/localize.474.js" integrity="sha512-/KqPiRH028feTaJMEpIdUdmtYQUDnGLnzQCY7IDfXBh/DjqFS9i2/opQ6F/gPsQWTjkaR2ZA/OHRKxQDNwOUng==" crossorigin="anonymous"></script>
+```
+
 ## Version 473 - April 24, 2023
 * **[Fix]**: Filter executable code from `Localize.translate` method when using variable interpolation. 
 Fixes an issue where words beginning with "on" and followed by an html tag were incorrectly removed within `Localize.translate`.

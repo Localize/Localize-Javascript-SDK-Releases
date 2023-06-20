@@ -26,6 +26,16 @@ If you wish to load the Localize script using [Subresource Integrity](https://de
 
 
 # Release Notes
+## Version 475 - June 19, 2023
+* **[Feature]**: Add `translateImmediate` method for real time translations. This new feature is available on selected, advanced plans.
+```
+// Script tag without SRI
+<script src="https://global.localizecdn.com/localize.475.js"></script>
+
+// Script tag with SRI
+<script src="https://global.localizecdn.com/localize.475.js" integrity="sha512-XOICBgs7kZuPsWAhfe8O7MUTYiNotyIGaZf6FKAAVs3dAH16eiip1NWzG58Pwh9++lnNWaQ8QRjPQh2Vce9Ibg==" crossorigin="anonymous"></script>
+```
+
 ## Version 474 - May 22, 2023
 * **[Fix]**: Allow translation of meta data while using the In-Context Editor.
 ```

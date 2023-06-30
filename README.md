@@ -26,6 +26,16 @@ If you wish to load the Localize script using [Subresource Integrity](https://de
 
 
 # Release Notes
+## Version 476 - June 30, 2023
+* **[Fix]**: Ignore `Link` tags in header when detecting phrases.
+```
+// Script tag without SRI
+<script src="https://global.localizecdn.com/localize.476.js"></script>
+
+// Script tag with SRI
+<script src="https://global.localizecdn.com/localize.476.js" integrity="sha512-hUe5E8nDx5DBz2LkyGs+aQAt3pAj3s4CS4zrwPd/ZhoPA3VIYV5gSQsGTSwI663xkEVjgtqNqAuT/0jVWZduXw==" crossorigin="anonymous"></script>
+```  
+
 ## Version 475 - June 19, 2023
 * **[Feature]**: Add `translateImmediate` method for real time translations. This new feature is available on selected, advanced plans.
 ```

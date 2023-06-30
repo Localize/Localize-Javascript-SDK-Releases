@@ -27,7 +27,7 @@ If you wish to load the Localize script using [Subresource Integrity](https://de
 
 # Release Notes
 ## Version 476 - June 30, 2023
-* **[Fix]**: Ignore <Link> tags in header when detecting phrases.
+* **[Fix]**: Ignore `Link` tags in header when detecting phrases.
 ```
 // Script tag without SRI
 <script src="https://global.localizecdn.com/localize.476.js"></script>

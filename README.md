@@ -30,7 +30,7 @@ If you wish to load the Localize script using [Subresource Integrity](https://de
 * **[Fix]**: Allow for phrases containing zero width joiner characters.
 ```
  // Script tag without SRI
-<script src="https://global.localizecdn.com/localize.476.js"></script>
+<script src="https://global.localizecdn.com/localize.477.js"></script>
 
 // Script tag with SRI
 <script src="https://global.localizecdn.com/localize.477.js" integrity="sha512-NtU0nxRzwnDaS54Ev71Qs6PPTcAV6s72ZbdQG44o+6I1K+S+6oLsYkjkanNZpGG02bL8T/xsVUz6QaNOf0iciA==" crossorigin="anonymous"></script>

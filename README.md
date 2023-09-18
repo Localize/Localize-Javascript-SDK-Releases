@@ -26,6 +26,15 @@ If you wish to load the Localize script using [Subresource Integrity](https://de
 
 
 # Release Notes
+## Version 478 - September 18, 2023
+* **[Feature]**: Allow reinitializing project keys within a single page application. You may now specify use `Localize.initialize` with different project keys within your code even if the page does not refresh.
+```
+ // Script tag without SRI
+<script src="https://global.localizecdn.com/localize.478.js"></script>
+
+// Script tag with SRI
+<script src="https://global.localizecdn.com/localize.478.js" integrity="sha512-ZTJKh33vjnd051lAy9M3bzhkdXaUoa7YljvvkaXQAyPZ8BgI38ccMgq9JMvBix2AUqasEq4S3a0O+SJo9T0cWQ==" crossorigin="anonymous"></script>
+
 ## Version 477 - September 8, 2023
 * **[Fix]**: Allow for phrases containing zero width joiner characters.
 ```

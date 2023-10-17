@@ -34,7 +34,7 @@ If you wish to load the Localize script using [Subresource Integrity](https://de
 
 // Script tag with SRI
 <script src="https://global.localizecdn.com/localize.478.js" integrity="sha512-ZTJKh33vjnd051lAy9M3bzhkdXaUoa7YljvvkaXQAyPZ8BgI38ccMgq9JMvBix2AUqasEq4S3a0O+SJo9T0cWQ==" crossorigin="anonymous"></script>
-
+```
 ## Version 477 - September 8, 2023
 * **[Fix]**: Allow for phrases containing zero width joiner characters.
 ```

@@ -26,6 +26,16 @@ If you wish to load the Localize script using [Subresource Integrity](https://de
 
 
 # Release Notes
+## Version 479 - December 4, 2023
+* **[Fix]**: Prevent ingesting of html content added by third party browser plugins. This most commonly happens when users have password managers, such as Dashlane, installed.
+```
+ // Script tag without SRI
+<script src="https://global.localizecdn.com/localize.479.js"></script>
+
+// Script tag with SRI
+<script src="https://global.localizecdn.com/localize.479.js" integrity="sha512-i2cYsm2Jag+tncmkh/i6fPWm2jD0B13gway+rwP6grlr8L6allz635lj8a3ErYsrWUDx1HTlo1I2/v/emBu0Ug==" crossorigin="anonymous"></script>
+```
+
 ## Version 478 - September 18, 2023
 * **[Feature]**: Allow reinitializing project keys within a single page application. You may now specify use `Localize.initialize` with different project keys within your code even if the page does not refresh.
 ```

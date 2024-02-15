@@ -26,6 +26,16 @@ If you wish to load the Localize script using [Subresource Integrity](https://de
 
 
 # Release Notes
+## Version 480 - February 15, 2024
+* **[Fix]**: Fixes edge case of target language ingestion
+```
+ // Script tag without SRI
+<script src="https://global.localizecdn.com/localize.480.js"></script>
+
+// Script tag with SRI
+<script src="https://global.localizecdn.com/localize.480.js" integrity="sha512-NMmMurL+Ai7ObZtr9aK41p3yBQeAY14GnAXYgTw5IebWi3vZem12kOwQjKbxwKVFSkLWPpV1ZM9dVtXyPEtL4Q==" crossorigin="anonymous"></script>
+```
+
 ## Version 479 - December 4, 2023
 * **[Fix]**: Prevent ingesting of html content added by third party browser plugins. This most commonly happens when users have password managers, such as Dashlane, installed.
 ```

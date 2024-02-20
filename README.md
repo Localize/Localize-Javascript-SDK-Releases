@@ -26,6 +26,16 @@ If you wish to load the Localize script using [Subresource Integrity](https://de
 
 
 # Release Notes
+## Version 481 - February 19, 2024
+* **[Fix]**: Fixes flicker introduced in version 480
+```
+// Script tag without SRI
+https://global.localizecdn.com/localize.481.js
+
+// Script tag with SRI
+<script src="https://global.localizecdn.com/localize.481.js" integrity="sha512-NJ5OK4TNItqXTWM6LgLKQXcqNEFL26UwINmC+7AjdHbBMf1VFyjkqeHYIKtBkOb02DR0waQH/EjKTDY0gAtwtg==" crossorigin="anonymous"></script>
+```  
+
 ## Version 480 - February 15, 2024
 * **[Fix]**: Fixes edge case of target language ingestion
 ```

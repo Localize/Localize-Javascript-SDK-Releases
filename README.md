@@ -26,6 +26,16 @@ If you wish to load the Localize script using [Subresource Integrity](https://de
 
 
 # Release Notes
+## Version 483 - April 4, 2024
+* **[Fix]**: Update to support list item selection within an isolated div in the In-Context Editor (ICE)
+```
+// Script tag without SRI
+https://global.localizecdn.com/localize.483.js
+
+// Script tag with SRI
+<script src="https://global.localizecdn.com/localize.483.js" integrity="sha512-gIeF7k6sUWFYi5aJVdrhOjgrhTEPko5A31oktOj66RP/RIAH2a9ikYBPQGEraTeHo3onJ2932NlgRJyIjQOjNg==" crossorigin="anonymous"></script>
+```  
+
 ## Version 482 - March 7, 2024
 * **[Fix]**: Update to disable the widget when a project key has been deleted, rotated, or is missing
 ```

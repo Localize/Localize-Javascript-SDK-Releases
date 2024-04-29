@@ -26,6 +26,16 @@ If you wish to load the Localize script using [Subresource Integrity](https://de
 
 
 # Release Notes
+## Version 484 - April 29, 2024
+* **[Fix]**: Update timing of dictionary downloads when using `retranslateOnNewPhrases` to correct potential timing issues between front end and back end processes.
+```
+// Script tag without SRI
+<script src="https://global.localizecdn.com/localize.484.js"></script>
+
+// Script tag with SRI
+<script src="https://global.localizecdn.com/localize.484.js" integrity="sha512-hgqyxVtUWRh8CsO783wzSrBJols8mATH42lgPGDxDpIBkbxqyI2L5TA6wuuaL1+MZx+VmOPXpGOFu1Jdy4jgmQ==" crossorigin="anonymous"></script>
+```
+
 ## Version 483 - April 4, 2024
 * **[Fix]**: Update to support list item selection within an isolated div in the In-Context Editor (ICE)
 ```

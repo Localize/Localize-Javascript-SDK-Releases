@@ -26,6 +26,16 @@ If you wish to load the Localize script using [Subresource Integrity](https://de
 
 
 # Release Notes
+## Version 485 - May 28, 2024
+* **[Fix]**: Fixes issue where In Context Editor would not load due to timing issue of document ready state.
+```
+// Script tag without SRI
+<script src="https://global.localizecdn.com/localize.485.js"></script>
+
+// Script tag with SRI
+<script src="https://global.localizecdn.com/localize.485.js" integrity="sha512-RokgHpdVvWFhJsb6AnlfnYSkmoDGu4iU0oonAORfPl0WXihuZJv+ge34YRvVQNcFbFJi0LoZc9+qPbXyeRsQAA==" crossorigin="anonymous"></script>
+```
+
 ## Version 484 - April 29, 2024
 * **[Fix]**: Update timing of dictionary downloads when using `retranslateOnNewPhrases` to correct potential timing issues between front end and back end processes.
 ```

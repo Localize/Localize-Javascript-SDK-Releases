@@ -26,6 +26,16 @@ If you wish to load the Localize script using [Subresource Integrity](https://de
 
 
 # Release Notes
+## Version 486 - July 11, 2024
+* **[Fix]**: Supports new initialize options to keep navigation in sync as languages are selected via the Localize widget for sites that use subdomains or subdirectories.
+```
+// Script tag without SRI
+<script src="https://global.localizecdn.com/localize.486.js"></script>
+
+// Script tag with SRI
+<script src="https://global.localizecdn.com/localize.486.js" integrity="sha512-ZKTgUUGib6lkN4Hpnm0SfvXwlHy2HzhmF+KuOqckStnPQc+gyo/JADu8O9x3AB032FsdjgH8v6Qlq5P08zXi1A==" crossorigin="anonymous"></script>
+```
+
 ## Version 485 - May 28, 2024
 * **[Fix]**: Fixes issue where In Context Editor would not load due to timing issue of document ready state.
 ```

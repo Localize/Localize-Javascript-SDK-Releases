@@ -27,7 +27,7 @@ If you wish to load the Localize script using [Subresource Integrity](https://de
 
 # Release Notes
 ## Version 486 - July 11, 2024
-* **[Fix]**: Supports new initialize options to keep navigation in sync as languages are selected via the Localize widget for sites that use subdomains or subdirectories.
+* **[Feat]**: Supports new initialize options to keep navigation in sync as languages are selected via the Localize widget for sites that use subdomains or subdirectories.
 ```
 // Script tag without SRI
 <script src="https://global.localizecdn.com/localize.486.js"></script>

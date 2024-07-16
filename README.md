@@ -28,11 +28,14 @@ If you wish to load the Localize script using [Subresource Integrity](https://de
 # Release Notes
 ## Version 487 - July 16, 2024
 * **[Feat]**: Support complex CSS selectors for phrase blocking.  For example, you can now enter something like #my-id .my-class.
-* // Script tag without SRI
+*
+```
+// Script tag without SRI
 <script src="https://global.localizecdn.com/localize.487.js"></script>
 
 // Script tag with SRI
 <script src="https://global.localizecdn.com/localize.487.js" integrity="sha512-ewIc1gQgvL9xHaz+K2sQRKWDccA3/YlEL9tZCh31s4aCBvT7V90HC5bEc4T1GRnaNCHzUCKYnRReaxKudxFAXQ==" crossorigin="anonymous"></script>
+```
 
 ## Version 486 - July 11, 2024
 * **[Feat]**: Supports new initialize options to keep navigation in sync as languages are selected via the Localize widget for sites that use subdomains or subdirectories.

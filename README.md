@@ -27,8 +27,7 @@ If you wish to load the Localize script using [Subresource Integrity](https://de
 
 # Release Notes
 ## Version 488 - July 18, 2024
-* **[Feat]**: Support complex CSS selectors for phrase blocking.  For example, you can now enter something like #my-id .my-class.
-*
+* **[Feat]**: Temporarily revert support for complex CSS selectors to give time for performance tuning of the feature.*
 ```
 // Script tag without SRI
 <script src="https://global.localizecdn.com/localize.488.js"></script>

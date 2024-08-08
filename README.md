@@ -26,6 +26,16 @@ If you wish to load the Localize script using [Subresource Integrity](https://de
 
 
 # Release Notes
+## Version 489 - August 8, 2024
+* **[Feat]**: Add shadow root support for ICE
+```
+// Script tag without SRI
+<script src="https://global.localizecdn.com/localize.489.js"></script>
+
+// Script tag with SRI
+<script src="https://global.localizecdn.com/localize.489.js" integrity="sha512-0QTL2MFFPCmU8hp5XVyfv9VOL+c2PavZr/LjH1R/YYdv74Besi5IYgUU6XsosXtJSd+dsBLzFDSRLAlLDQd7xA==" crossorigin="anonymous"></script>
+```
+
 ## Version 488 - July 18, 2024
 * **[Feat]**: Temporarily revert support for complex CSS selectors to give time for performance tuning of the feature.*
 ```

@@ -26,6 +26,16 @@ If you wish to load the Localize script using [Subresource Integrity](https://de
 
 
 # Release Notes
+## Version 490 - August 15, 2024
+* **[Feat]**: Supports the ability to hide particular languages within the Localize widget via new setWidgetLanguages() and hideLanguagesInWidget() frontend API methods
+```
+// Script tag without SRI
+<script src="https://global.localizecdn.com/localize.490.js"></script>
+
+// Script tag with SRI
+<script src="https://global.localizecdn.com/localize.490.js" integrity="sha512-TuHJ1Y9lykBfFwWNRJBgSSabROadeKFZ/Rph6Tkw+OMTRiC39BdkdCSOejmRh8rQlLgBpSn6QCltrsPfxXcNMg==" crossorigin="anonymous"></script>
+```
+
 ## Version 489 - August 8, 2024
 * **[Feat]**: Add shadow root support for ICE
 ```

@@ -26,6 +26,16 @@ If you wish to load the Localize script using [Subresource Integrity](https://de
 
 
 # Release Notes
+## Version 491 - August 22, 2024
+* **[Feat]**: Add configuration options to allow for complex css blocking per project.
+```
+// Script tag without SRI
+<script src="https://global.localizecdn.com/localize.491.js"></script>
+
+// Script tag with SRI
+<script src="https://global.localizecdn.com/localize.491.js" integrity="sha512-sIoSfurpM0OiGo7WymAgg2ZBIA38QUcQUyRJKceKSnmMfr8nNURTERs93JgxDAL330U13pT9muz9YZVuWE3aaA==" crossorigin="anonymous"></script>
+```
+
 ## Version 490 - August 15, 2024
 * **[Feat]**: Supports the ability to hide particular languages within the Localize widget via new `setWidgetLanguages()` and `hideLanguagesInWidget()` frontend API methods
 ```

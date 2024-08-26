@@ -27,7 +27,7 @@ If you wish to load the Localize script using [Subresource Integrity](https://de
 
 # Release Notes
 ## Version 492 - August 26, 2024
-* **[Fix]**: Allow for mixed case languages and locales when setting through ljs parameter.  For example, ljs=en-UK and ljs=en-uk are both acceptable.
+* **[Fix]**: Fixes issue turning off widget while using targetLanguage parameter caused translations to not be delivered to websites.
 ```
 // Script tag without SRI
 <script src="https://global.localizecdn.com/localize.492.js"></script>

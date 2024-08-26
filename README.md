@@ -26,6 +26,16 @@ If you wish to load the Localize script using [Subresource Integrity](https://de
 
 
 # Release Notes
+## Version 492 - August 26, 2024
+* **[Fix]**: Allow for mixed case languages and locales when setting through ljs parameter.  For example, ljs=en-UK and ljs=en-uk are both acceptable.
+```
+// Script tag without SRI
+<script src="https://global.localizecdn.com/localize.492.js"></script>
+
+// Script tag with SRI
+<script src="https://global.localizecdn.com/localize.492.js" integrity="sha512-FO4C1MTdtbffvfaWwV6LSBCCLgaRF4Jm00eI7Q1gK+0RX1xl7oWtW5pwFxrPCAjerBKGC9fZc5mXTT8IpYYjzw==" crossorigin="anonymous"></script>
+```
+
 ## Version 491 - August 22, 2024
 * **[Feat]**: Add configuration options to allow for complex css blocking per project.
 ```

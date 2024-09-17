@@ -27,7 +27,7 @@ If you wish to load the Localize script using [Subresource Integrity](https://de
 
 # Release Notes
 ## Version 494 - September 17, 2024
-* **[Fix]**: Allow `hideWidgetLanguages()` and `setWidgetLanguages()` methods to take immediate effect without the need for a refresh.
+* **[Fix]**: Allow `hideLanguagesInWidget()` and `setWidgetLanguages()` methods to take immediate effect without the need for a refresh.
 ```
 // Script tag without SRI
 <script src="https://global.localizecdn.com/localize.494.js"></script>

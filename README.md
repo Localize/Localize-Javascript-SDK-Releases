@@ -26,8 +26,18 @@ If you wish to load the Localize script using [Subresource Integrity](https://de
 
 
 # Release Notes
+## Version 494 - September 17, 2024
+* **[Fix]**: Allow `hideWidgetLangs()/setWidgetLangs()` methods to take immediate effect without the need for a refresh.
+```
+// Script tag without SRI
+<script src="https://global.localizecdn.com/localize.494.js"></script>
+
+// Script tag with SRI
+<script src="https://global.localizecdn.com/localize.494.js" integrity="sha512-bA+YPvsD1WEpwhMeEXg1gmdK9d4fEjcDvla+PmiAr3j0s8/IVGAf+5z+C1QYWT0MFCHO5j71yzvNmbsIendYoA==" crossorigin="anonymous"></script>
+```
+
 ## Version 493 - August 28, 2024
-* **[Fix]**: Allow for mixed case languages and locales when setting through ljs parameter. For example, ljs=en-UK and ljs=en-uk are both acceptable.
+* **[Fix]**: Allow for mixed case languages and locales when setting through ljs parameter. For example, `ljs=en-UK` and `ljs=en-uk` are both acceptable.
 ```
 // Script tag without SRI
 <script src="https://global.localizecdn.com/localize.493.js"></script>

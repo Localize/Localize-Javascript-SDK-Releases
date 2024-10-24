@@ -26,6 +26,16 @@ If you wish to load the Localize script using [Subresource Integrity](https://de
 
 
 # Release Notes
+## Version 495 - October 24, 2024
+* **[Feat]**: Auto-blocks phrase content that is dynamically inserted by the 3rd-party ‘Translate’ Chrome browser extension.
+```
+// Script tag without SRI
+<script src="https://global.localizecdn.com/localize.495.js"></script>
+
+// Script tag with SRI
+<script src="https://global.localizecdn.com/localize.495.js" integrity="sha512-hMjuEEpdrauJL6903G/6ffIcvqvE3hW92T+oMO/K+rZ4A4ZOfRZ3ORp3KvUz79fLI+DaeB2Cfox0I7AVi8zvlg==" crossorigin="anonymous"></script>
+```
+
 ## Version 494 - September 17, 2024
 * **[Fix]**: Allow `hideLanguagesInWidget()` and `setWidgetLanguages()` methods to take immediate effect without the need for a refresh.
 ```

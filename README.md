@@ -26,6 +26,16 @@ If you wish to load the Localize script using [Subresource Integrity](https://de
 
 
 # Release Notes
+## Version 496 - October 31, 2024
+* **[Fix]**: Handles an edge case related to 3rd party browser extension content-blocking detection.
+```
+// Script tag without SRI
+<script src="https://global.localizecdn.com/localize.496.js"></script>
+
+// Script tag with SRI
+<script src="https://global.localizecdn.com/localize.496.js" integrity="sha512-ybwOkEHYG+52h08ekfuaPQiVWr56LHRIohg85sqD8lJRllHHIxQMiqsqNTEp+ANqf6sZK4zfB/TXcHU+aHzCWA==" crossorigin="anonymous"></script>
+```
+
 ## Version 495 - October 24, 2024
 * **[Feat]**: Auto-blocks phrase content that is dynamically inserted by the 3rd-party ‘Translate’ Chrome browser extension.
 ```

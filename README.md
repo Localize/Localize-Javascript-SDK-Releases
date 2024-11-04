@@ -26,6 +26,16 @@ If you wish to load the Localize script using [Subresource Integrity](https://de
 
 
 # Release Notes
+## Version 497 - November 4, 2024
+* **[Feat]**: Enhancements in support of the Localize In Context Editor (ICE), including SVG, Shadow Root, and editor-reload related updates.
+```
+// Script tag without SRI
+<script src="https://global.localizecdn.com/localize.497.js"></script>
+
+// Script tag with SRI
+<script src="https://global.localizecdn.com/localize.497.js" integrity="sha512-Zju/MvBtkRfiwVYX8tnIUxOm4q38CxIbd8tcbR228ETTBtN0aPYbMkhNS3X+HYYjH+pxk2Z9/Z7DZS35Qz7BpA==" crossorigin="anonymous"></script>
+```
+
 ## Version 496 - October 31, 2024
 * **[Fix]**: Handles an edge case related to 3rd party browser extension content-blocking detection.
 ```

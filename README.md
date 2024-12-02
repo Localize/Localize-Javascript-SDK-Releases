@@ -26,6 +26,16 @@ If you wish to load the Localize script using [Subresource Integrity](https://de
 
 
 # Release Notes
+## Version 498 - December 2, 2024
+* **[Feat]**: Localize In Context Editor (ICE) related internal updates.
+```
+// Script tag without SRI
+<script src="https://global.localizecdn.com/localize.498.js"></script>
+
+// Script tag with SRI
+<script src="https://global.localizecdn.com/localize.498.js" integrity="sha512-nXtk/mOYYNjYGr8mxzWzwBJOcBTLXZ3H9moAmv0PBIpLCGxNH2dYzCF7gQot+Uej2rJgJBYK6P0EbaIFDqlEQg==" crossorigin="anonymous"></script>
+```
+
 ## Version 497 - November 4, 2024
 * **[Feat]**: Enhancements in support of the Localize In Context Editor (ICE), including SVG, Shadow Root, and editor-reload related updates.
 ```

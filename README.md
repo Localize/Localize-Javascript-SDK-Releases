@@ -26,6 +26,15 @@ If you wish to load the Localize script using [Subresource Integrity](https://de
 
 
 # Release Notes
+## Version 499 - December 5, 2024
+* **[Feat]**: Introduces a new `enableResilientDOMMode` configuration option to `Localize.initilize()` to respond gracefully to unhandled DOM mutation conflicts with other scripts.
+```
+// Script tag without SRI
+<script src="https://global.localizecdn.com/localize.499.js"></script>
+
+// Script tag with SRI
+<script src="https://global.localizecdn.com/localize.499.js" integrity="sha512-84aAdylbthz/pj7F5IEpcTsRTLPlc7Jmk6/ZyoxmksOFeHlyXdqcePlEqPO6BwS+nF9tRT6t4H/vMAEv8cSa/Q==" crossorigin="anonymous"></script>```
+
 ## Version 498 - December 2, 2024
 * **[Feat]**: Localize In Context Editor (ICE) related internal updates.
 ```

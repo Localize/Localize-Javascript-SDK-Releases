@@ -26,6 +26,16 @@ If you wish to load the Localize script using [Subresource Integrity](https://de
 
 
 # Release Notes
+## Version 500 - January 9, 2025
+* **[Feat]**: Introduces configuration support for fixed or relative widget display positioning.
+```
+// Script tag without SRI
+<script src="https://global.localizecdn.com/localize.500.js"></script>
+
+// Script tag with SRI
+<script src="https://global.localizecdn.com/localize.500.js" integrity="sha512-7LTG6+UZXQBmmeoZEPH/LMpnCNH2lhygt3qyDvLF7Cwwo8/iWPL7yME+DLk09t62gOObOQYSHFs84gJveFJKYA==" crossorigin="anonymous"></script>
+```
+
 ## Version 499 - December 5, 2024
 * **[Feat]**: Introduces a new `enableResilientDOMMode` configuration option to `Localize.initilize()` to respond gracefully to unhandled DOM mutation conflicts with other scripts.
 ```
@@ -33,7 +43,8 @@ If you wish to load the Localize script using [Subresource Integrity](https://de
 <script src="https://global.localizecdn.com/localize.499.js"></script>
 
 // Script tag with SRI
-<script src="https://global.localizecdn.com/localize.499.js" integrity="sha512-84aAdylbthz/pj7F5IEpcTsRTLPlc7Jmk6/ZyoxmksOFeHlyXdqcePlEqPO6BwS+nF9tRT6t4H/vMAEv8cSa/Q==" crossorigin="anonymous"></script>```
+<script src="https://global.localizecdn.com/localize.499.js" integrity="sha512-84aAdylbthz/pj7F5IEpcTsRTLPlc7Jmk6/ZyoxmksOFeHlyXdqcePlEqPO6BwS+nF9tRT6t4H/vMAEv8cSa/Q==" crossorigin="anonymous"></script>
+```
 
 ## Version 498 - December 2, 2024
 * **[Feat]**: Localize In Context Editor (ICE) related internal updates.

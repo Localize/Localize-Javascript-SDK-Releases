@@ -26,6 +26,16 @@ If you wish to load the Localize script using [Subresource Integrity](https://de
 
 
 # Release Notes
+## Version 501 - January 16, 2025
+* **[Fix]**: Improves cache handling for widget positioning updates.
+```
+// Script tag without SRI
+<script src="https://global.localizecdn.com/localize.501.js"></script>
+
+// Script tag with SRI
+<script src="https://global.localizecdn.com/localize.501.js" integrity="sha512-ondK4IfA6IuiS8C8y2cAOr+PK0dVGoPpoTEJf9iBtO3HTCo0zIgyWcPwgBHd8XZKJm4Y7ucfWBXUh0E+An1BWA==" crossorigin="anonymous"></script>
+```
+
 ## Version 500 - January 9, 2025
 * **[Feat]**: Introduces configuration support for fixed or relative widget display positioning.
 ```

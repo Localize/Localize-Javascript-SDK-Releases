@@ -26,6 +26,16 @@ If you wish to load the Localize script using [Subresource Integrity](https://de
 
 
 # Release Notes
+## Version 502 - January 30, 2025
+* **[Feat]**: Frontend API validation enhancements
+```
+// Script tag without SRI
+<script src="https://global.localizecdn.com/localize.502.js"></script>
+
+// Script tag with SRI
+<script src="https://global.localizecdn.com/localize.502.js" integrity="sha512-yClhMtQd9bM/Pihxdgnlg0BcUBLcPkVSPEuw1zCNkkYLEE2++w/kEMcfH4EdPpipfi7cGQV0m1d9GC+I0Oqf+A==" crossorigin="anonymous"></script>
+```
+
 ## Version 501 - January 16, 2025
 * **[Fix]**: Improves cache handling for widget positioning updates.
 ```

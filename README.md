@@ -26,6 +26,16 @@ If you wish to load the Localize script using [Subresource Integrity](https://de
 
 
 # Release Notes
+## Version 503 - February 10, 2025
+* **[Feat]**: Added support for `srcset` when `localizeImages` project setting (aka 'Customize image files by language') is enabled
+```
+// Script tag without SRI
+<script src="https://global.localizecdn.com/localize.503.js"></script>
+
+// Script tag with SRI
+<script src="https://global.localizecdn.com/localize.503.js" integrity="sha512-sNL6exsfZwKMynKWK8SOqb/YUfKDSgaCQD1m7MRgjUNGNb4d7D9bWT1uTAWg3eHn1gFinnu0VD9cvVJe40vG7w==" crossorigin="anonymous"></script>
+```
+
 ## Version 502 - January 30, 2025
 * **[Feat]**: Frontend API validation enhancements
 ```

@@ -26,6 +26,16 @@ If you wish to load the Localize script using [Subresource Integrity](https://de
 
 
 # Release Notes
+## Version 504 - February 20, 2025
+* **[Fix]**: Pluralization enhancements for dynamic content within the source language experience; support for `data-pluralize` attribute syntax added
+```
+// Script tag without SRI
+<script src="https://global.localizecdn.com/localize.504.js"></script>
+
+// Script tag with SRI
+<script src="https://global.localizecdn.com/localize.504.js" integrity="sha512-rA+qBT/pxTcZD05fUOFwO2+Br+e4bZej0kTaGL/oC3DUv69OTPHX82ooZVZnTKl+Yu2oaHFQ4byGuPBmYLXTNQ==" crossorigin="anonymous"></script>
+```
+
 ## Version 503 - February 10, 2025
 * **[Feat]**: Added support for `srcset` when `localizeImages` project setting (aka 'Customize image files by language') is enabled
 ```

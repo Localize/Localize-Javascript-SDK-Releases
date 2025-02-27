@@ -26,6 +26,16 @@ If you wish to load the Localize script using [Subresource Integrity](https://de
 
 
 # Release Notes
+## Version 505 - February 27, 2025
+* **[Fix]**: Improve handling of `&` in source language phrases to harden against unwanted phrase duplication
+```
+// Script tag without SRI
+<script src="https://global.localizecdn.com/localize.505.js"></script>
+
+// Script tag with SRI
+<script src="https://global.localizecdn.com/localize.505.js" integrity="sha512-qcMEWWLNLFhuhDsoqtoVZ2Oh3PM2hhUMvG2YcZ1VYyFS6LWu9dHgqDZP0LCE7XUGrTfFnRdW88YodTT2rk8dzg==" crossorigin="anonymous"></script>
+```
+
 ## Version 504 - February 20, 2025
 * **[Fix]**: Pluralization enhancements for dynamic content within the source language experience; support for `data-pluralize` attribute syntax added
 ```

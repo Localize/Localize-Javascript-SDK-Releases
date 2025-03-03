@@ -26,8 +26,18 @@ If you wish to load the Localize script using [Subresource Integrity](https://de
 
 
 # Release Notes
+## Version 506 - March 3, 2025
+* **[Feat]**: Localize In Context Editor (ICE) related internal updates.
+```
+// Script tag without SRI
+<script src="https://global.localizecdn.com/localize.506.js"></script>
+
+// Script tag with SRI
+<script src="https://global.localizecdn.com/localize.506.js" integrity="sha512-RraHPR/vuqGxxI1MWYbwVuqJ1D48fLQIq64NbPjmlJ6xVEuq2rslX6Twv2QezKtfYwt4RKmR9Bh0MDwXLUWvPw==" crossorigin="anonymous"></script>
+```
+
 ## Version 505 - February 27, 2025
-* **[Fix]**: Improve handling of `&` in source language phrases to harden against unwanted phrase duplication
+* **[Fix]**: Improve handling of `&` in source language phrases to harden against unwanted phrase duplication.
 ```
 // Script tag without SRI
 <script src="https://global.localizecdn.com/localize.505.js"></script>

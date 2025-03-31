@@ -26,6 +26,16 @@ If you wish to load the Localize script using [Subresource Integrity](https://de
 
 
 # Release Notes
+## Version 507 - March 31, 2025
+* **[Fix]**: Resolves a header incompatibility in support of the `Localize.translateImmediate` frontend API.
+```
+// Script tag without SRI
+<script src="https://global.localizecdn.com/localize.507.js"></script>
+
+// Script tag with SRI
+<script src="https://global.localizecdn.com/localize.507.js" integrity="sha512-8ewZ3L/VlBOYB8nVZ7Kk0WDDRTO4knXa4/y2X7Jsv9/Iphmi/RWDhzBYe7LRpJc01HB+A9j9ylSO0EZanpElnw==" crossorigin="anonymous"></script>
+```
+
 ## Version 506 - March 3, 2025
 * **[Feat]**: Localize In Context Editor (ICE) related internal updates.
 ```

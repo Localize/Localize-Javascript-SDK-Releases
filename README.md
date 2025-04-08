@@ -26,6 +26,16 @@ If you wish to load the Localize script using [Subresource Integrity](https://de
 
 
 # Release Notes
+## Version 508 - April 8, 2025
+* **[Feat]**: Adds support for <a> tag href value URL translation per 'Customize URL links by language' Project > Library setting when plan-enabled.
+```
+// Script tag without SRI
+<script src="https://global.localizecdn.com/localize.508.js"></script>
+
+// Script tag with SRI
+<script src="https://global.localizecdn.com/localize.508.js" integrity="sha512-iPcrWZaGHwc7qj37IgX7/NOA/Y0VrM1OyDd4pty/ESGmksQGHuqEEx6godjEPWKxW6+rlrm9c+I4VFenpVWrlQ==" crossorigin="anonymous"></script>
+```
+
 ## Version 507 - March 31, 2025
 * **[Fix]**: Resolves a header incompatibility in support of the `Localize.translateImmediate` frontend API.
 ```

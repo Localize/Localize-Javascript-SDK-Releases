@@ -26,6 +26,16 @@ If you wish to load the Localize script using [Subresource Integrity](https://de
 
 
 # Release Notes
+## Version 510 - April 28, 2025
+* **[Feat]**: Enhances custom widget configurability to support widget-appending target element ID and positioning instruction relative to that element.
+```
+// Script tag without SRI
+<script src="https://global.localizecdn.com/localize.510.js"></script>
+
+// Script tag with SRI
+<script src="https://global.localizecdn.com/localize.510.js" integrity="sha512-LKIQWr/EZqks+xYV0Nu3DsxZf+gED0B3xswk0zPyWPwTLj8EggxhHgnGQA///nNK8qXFVFBHbFXJHpvY3YAJEg==" crossorigin="anonymous"></script>
+```
+
 ## Version 509 - April 24, 2025
 * **[Chore]**: Internal updates associated with API request handling.
 ```

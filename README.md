@@ -27,7 +27,7 @@ If you wish to load the Localize script using [Subresource Integrity](https://de
 
 # Release Notes
 ## Version 511 - May 8, 2025
-* **[Feat]**: Updates to support language selection persistence within the On-Page Editor, as well as enhanced observer responsiveness to History state changes.
+* **[Fix]**: Updates to support language selection persistence within the On-Page Editor, as well as enhanced observer responsiveness to History state changes.
 ```
 // Script tag without SRI
 <script src="https://global.localizecdn.com/localize.511.js"></script>

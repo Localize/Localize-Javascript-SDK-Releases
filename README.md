@@ -26,6 +26,16 @@ If you wish to load the Localize script using [Subresource Integrity](https://de
 
 
 # Release Notes
+## Version 512 - May 12, 2025
+* **[Fix]**: Minor internal update.
+```
+// Script tag without SRI
+<script src="https://global.localizecdn.com/localize.512.js"></script>
+
+// Script tag with SRI
+<script src="https://global.localizecdn.com/localize.512.js" integrity="sha512-Crwy9rJ/jc4+yKwKpgZMlGmZdmaYwJIa7UK2+DSCP065Hdx5c+dL47QuCM8QPHry3NNhVmqDSPG5YqQvCJfuQQ==" crossorigin="anonymous"></script>
+```
+
 ## Version 511 - May 8, 2025
 * **[Fix]**: Updates to support language selection persistence within the On-Page Editor, as well as enhanced observer responsiveness to History state changes.
 ```

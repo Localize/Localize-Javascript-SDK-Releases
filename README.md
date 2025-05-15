@@ -26,6 +26,16 @@ If you wish to load the Localize script using [Subresource Integrity](https://de
 
 
 # Release Notes
+## Version 513 - May 15, 2025
+* **[Fix]**: Updates to ensure that when the `translateSVGElement` option is false, SVG elements will not be translated, and a History state-change supporting guardrail when the native `Event` is unavailable.
+```
+// Script tag without SRI
+<script src="https://global.localizecdn.com/localize.513.js"></script>
+
+// Script tag with SRI
+<script src="https://global.localizecdn.com/localize.513.js" integrity="sha512-nudnPcZ4za9cQTmaznBzRj/Mo2LEbQ/D4MOHeSEUO3nnxfBFp0ZQJ+sVQNZ8cBoeN0XQnQLRdmDuMq66kmoLVg==" crossorigin="anonymous"></script>
+```
+
 ## Version 512 - May 12, 2025
 * **[Fix]**: Minor internal update.
 ```

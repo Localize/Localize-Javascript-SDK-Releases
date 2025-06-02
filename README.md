@@ -26,7 +26,7 @@ If you wish to load the Localize script using [Subresource Integrity](https://de
 
 
 # Release Notes
-## Version 513 - May 15, 2025
+## Version 514 - June 2, 2025
 * **[Fix]**: Update to support specific language codes with mixed-case locales (eg `pa-Arab`, `ms-Arab`).
 ```
 // Script tag without SRI

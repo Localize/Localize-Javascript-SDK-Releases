@@ -26,6 +26,16 @@ If you wish to load the Localize script using [Subresource Integrity](https://de
 
 
 # Release Notes
+## Version 515 - June 16, 2025
+* **[Feat]**: Internal updates in support of an upcoming feature release.
+```
+// Script tag without SRI
+<script src="https://global.localizecdn.com/localize.515.js"></script>
+
+// Script tag with SRI
+<script src="https://global.localizecdn.com/localize.515.js" integrity="sha512-lvjgBx/SWE98qvC8g4XpS4e0YEnGb+7bfP/n63kGPSUKUWdF5b6wIZpdK46Y3xNapLdZa51CTZwS8UOTxjFcQA==" crossorigin="anonymous"></script>
+```
+
 ## Version 514 - June 2, 2025
 * **[Fix]**: Update to support specific language codes with mixed-case locales (eg `pa-Arab`, `ms-Arab`).
 ```

@@ -26,6 +26,16 @@ If you wish to load the Localize script using [Subresource Integrity](https://de
 
 
 # Release Notes
+## Version 516 - June 19, 2025
+* **[Fix]**: Minor update related to support for <a> tag href value URL translation.
+```
+// Script tag without SRI
+<script src="https://global.localizecdn.com/localize.516.js"></script>
+
+// Script tag with SRI
+<script src="https://global.localizecdn.com/localize.516.js" integrity="sha512-xwMEYHa2km0RGNcI1zs4u3QB0OrR0IYUCIlq415BvtlleESIiWY+LiaCSEx9OfEU02AhBVZyGHTp04pALYyksg==" crossorigin="anonymous"></script>
+```
+
 ## Version 515 - June 16, 2025
 * **[Feat]**: Internal updates in support of an upcoming feature release.
 ```

@@ -36,6 +36,7 @@ If you wish to load the Localize script using [Subresource Integrity](https://de
 <script src="https://global.localizecdn.com/localize.517.js" integrity="sha512-+AJgLzf5vxSm9b0o1mF4r614T0NN0bFrp61ShkbPtCkJatAGorXminTcG8LE1hieDbU60D46fSKzwAZ5LgY7/w==" crossorigin="anonymous"></script>
 ```
 
+## Version 516 - June 19, 2025
 * **[Fix]**: Minor update related to support for <a> tag href value URL translation.
 ```
 // Script tag without SRI

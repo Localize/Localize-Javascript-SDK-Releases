@@ -26,6 +26,16 @@ If you wish to load the Localize script using [Subresource Integrity](https://de
 
 
 # Release Notes
+## Version 518 - June 26, 2025
+* **[Fix]**: Minor update to `translateSVGElement` frontend API.
+```
+// Script tag without SRI
+<script src="https://global.localizecdn.com/localize.518.js"></script>
+
+// Script tag with SRI
+<script src="https://global.localizecdn.com/localize.518.js" integrity="sha512-a2+/oBmYzcmj8QQugLUYI2ueya8MxXuyKFSFyA+ZL51xJkx1lBByknJXxB1XwRgXeBQvbTx+HSVmLtoK4JJmPg==" crossorigin="anonymous"></script>
+```
+
 ## Version 517 - June 23, 2025
 * **[Fix]**: Corrects minor style injection regression.
 ```
